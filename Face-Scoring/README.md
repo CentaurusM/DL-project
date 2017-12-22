@@ -1,8 +1,10 @@
 # Face Scoring - Score Face by CNN Model based on TensorFlow
-
+ 
+## A little more details
+ * http://blog.csdn.net/roguesir/article/details/77164578
 
 ## Dataset
-* Doownload: http://www.hcii-lab.net/data/SCUT-FBP/EN/download.html
+* Download: http://www.hcii-lab.net/data/SCUT-FBP/EN/download.html
 
 ![Result Pic](https://github.com/roguesir/DL-project/blob/master/Face-Scoring/web_image.jpg)
 
