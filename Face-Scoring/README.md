@@ -12,6 +12,10 @@ After downloading, we need match the labels and images.
 
 ![Result Pic](https://github.com/roguesir/DL-project/blob/master/Face-Scoring/face_image.jpg)
 
+``` 
+python rename.py
+```
+
 ## Run
 
 There are three train scripts about the train model. 
