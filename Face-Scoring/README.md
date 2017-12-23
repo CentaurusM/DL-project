@@ -37,3 +37,49 @@ I train three models with different architectures: one is with three convolution
 First model: http://pan.baidu.com/s/1bp8gqfH
 
 AlexNet model: http://pan.baidu.com/s/1mhM0Jkk
+
+## Deploy
+
+### Offcial Tutorial
+https://www.tensorflow.org/serving/
+
+### Install Bazel
+```
+$ wget https://github.com/bazelbuild/bazel/releases/download/0.9.0/bazel-0.9.0-installer-linux-x86_64.sh
+$ chmod u+x bazel-0.9.0-installer-linux-x86_64.sh
+$ ./bazel-0.9.0-installer-linux-x86_64.sh
+```
+
+### Install gRPC
+```
+$ pip install grpcio
+```
+
+### TensorFlow Serving Python API PIP package
+```
+$ pip install tensorflow-serving-api
+```
+### Installing the ModelServer
+1. Add TensorFlow Serving distribution URI as a package source (one time setup)
+```
+echo "deb [arch=amd64] http://storage.googleapis.com/tensorflow-serving-apt stable tensorflow-model-server tensorflow-model-server-universal" | sudo tee /etc/apt/sources.list.d/tensorflow-serving.list
+
+curl https://storage.googleapis.com/tensorflow-serving-apt/tensorflow-serving.release.pub.gpg | sudo apt-key add -
+
+```
+2. Install and update TensorFlow ModelServer
+
+```
+git clone --recurse-submodules https://github.com/tensorflow/serving
+```
+
+
+
+
+
+
+
+
+
+
+
